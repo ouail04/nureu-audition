@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services-NUREU AUDITION</title> 
+    <link rel="stylesheet" href="stylles.css">
+    <link rel="icon" href="pic1.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="pic1.jpg" type="image/x-icon">
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+        }
+        
+        .image-wrapper {
+            flex: 1;
+            text-align: right;
+            padding-right: 20px;
+        }
+        
+        .image-wrapper img {
+            width: 200px;
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .image-wrapper:hover img {
+            transform: scale(1.2);
+        }
+        
+        .info-list {
+            flex: 1;
+            list-style-type: none;
+            padding-left: 20px;
+            font-size: 16px;
+            transition: font-size 0.3s ease-in-out;
+        }
+        
+        .image-wrapper:hover + .info-list li {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="image-wrapper">
+            <img src="your-image.jpg" alt="Your Image">
+        </div>
+        <ul class="info-list">
+            <li>Information 1</li>
+            <li>Information 2</li>
+            <li>Information 3</li>
+            <li>Information 4</li>
+            <li>Information 5</li>
+        </ul>cd
+    </div>
+</body>
+</html>
